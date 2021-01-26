@@ -1,0 +1,22 @@
+Nome tabella: automobili
+
+
+id PRIMARY KEY - AUTO_INCREMENT, UNIQUE;
+isdn: - "stringa" - VARCHAR(16); NOTNULL
+Marca: -"stringa"- VARCHAR(20); NOTNULL
+Modello: -"stringa"- VARCHAR(10); NOTNULL
+Luogo di produzione: -"stringa"- VARCHAR(20); NULL
+Anno di produzione: -"data"- DATE(YY-MM-DD); NOTNULL
+Data di immatricolazione: -"data"- DATETIME(YY-MM-DD HH:MM:SS); NOTNULL
+Luogo di immatricolazione: -"stringa" VARCHAR(20); NULL
+Codice di immatricolazione: -"intero"- INT; NOTNULL
+Data ultima revisione: -"data"- DATE(YY-MM-DD); NOTNULL
+Ultimo proprietario: -"stringa"- VARCHAR(25); NULL
+Difetti di fabbrica: -"stringa"- TEXT (1000); NOTNULL
+Kilometri fatti: -"intero"- INT; NOTNULL
+Cilindrata: -"int"- INT; NOTNULL
+Tipo di alimentazione: -"stringa"- VARCHAR(15);NOTNULL
+Rapporto potenza/massa: -"intero"- TINYINT; NOTNULL
+Massa Autoveicolo: -"intero"- INT; NULL
+Numero assi: -"intero"- TINYINT; NOTNULL
+Numero posti: -"intero"- TINYINT; NOTNULL
